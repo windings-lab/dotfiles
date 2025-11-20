@@ -107,3 +107,5 @@ zstyle ':omz:plugins:alias-finder' autoload yes
 source <(fzf --zsh)
 
 export EDITOR=nvim
+
+zstyle ':omz:update' mode reminder
