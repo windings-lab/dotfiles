@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Instance 1 (default)
-syncthing --home="$HOME/.config/syncthing" &
+syncthing --home="$HOME/.config/syncthing" --paused &
 
 # Instance 2 (custom)
 syncthing \
